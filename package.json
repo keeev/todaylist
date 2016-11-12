@@ -6,7 +6,10 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": {
+    "url": "https://github.com/electron/electron-quick-start",
+    "type": "git"
+  },
   "keywords": [
     "Electron",
     "quick",
@@ -14,9 +17,14 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "Kevin Niedermayr",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^1.4.1"
+    "electron": "^1.4.1",
+    "gulp-sass": "^2.3.2",
+    "menubar": "^5.1.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
   }
 }
